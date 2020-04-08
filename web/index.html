@@ -1,92 +1,31 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <title>Mi primera web</title>
-    </head>
-    <body>
-        <h1>Titulo de mi web</h1> <!-- Etiquetas para titulo -->
-        <h2>Bievenidos a mi web</h2>
-        <p>
-            Hola que tal desde este curso
-        </p>
-        <p>
-            Mauris non mi nec metus auctor fringilla a ac urna. Maecenas a lacus sit amet leo fermentum finibus sed at elit. Phasellus dapibus sit amet tortor quis interdum. Nulla tincidunt elit nec erat scelerisque laoreet. Aenean vulputate ligula et aliquet mollis. Phasellus vel semper lacus. Cras ac urna nec justo tempus dapibus quis vitae sem. Mauris venenatis<bold> sollicitudin</bold> risus quis congue.
-        </p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio multipaginas</title>
+</head>
+<body>
+    <!--Encabezado-->
+    <h1>Mi primera web</h1>
 
-        <hr/>
-        <h2>Imagenes en html</h2>
-        <img src="imagenes/perrito.jpg" alf="Imagen de un perro" title="Foto de perro" width="255"/>
-        <hr/>
+    <!--MENU-->
+    <ul>
+        <li><a href=index.html title="Inicio">INICIO</a></li>
+        <li><a href=contenidos.html title=Contenido>CONTENIDO</a></li>
+        <li><a href=contacto.html title="Cotacto">CONTACTO</a></li>
+        <li><a href="https://youtube.com" target="blank">You tube </a></li>
+    </ul>
+    <hr/>
 
-        <h3>
-            Tercer encabezado de la pagina
-        </h3>  
-        <p><blockquote>
-            "Neque <span id="resaltado" class=rojo>wfwqfwqfwqfrqew</span>porro quisquam est <strong>qui dolorem ipsum quia </strong>dolor sit amet,<em> consectetur, adipisci</em> velit..."
-        </blockquote>
-        </p>
+    <!--Contenido de Index-->
+    <h2>Bienvenido a mi web sitio</h2>
+    <img src="imagenes/perrito.jpg" alt="Imagen de perro" title="Perro">
 
-        <h3>Formulario</h3>
-        <form action="" method="">
-            <p>
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" placeholder="Escribe tu nombre"/>
-            </p>
+   <p>
+    Discover interesting projects and people to populate your personal news feed.
+    Your news feed helps you keep up with recent activity on repositories you watch and people you follow.
+   </p>
 
-            <p>
-                <label for="descripcion">Descripcion</label>
-                <textarea name="descripcion"></textarea>
-            </p>
-
-            <p>
-                <input type="radio" name="genero" value="hombre">Hombre <br/>
-                <input type="radio" name="genero" value="mujer">Mujer <br/>
-                <input type="radio" name="genero" value="nada">Nada <br/>
-            </p>
-
-            <p>
-                <select name="generados" id="">
-                    <option value="hombre">Hombre</option>
-                    <option value="mujer">Mujer</option>
-                    <option value="nada">Nada</option>
-                </select>
-
-                <input type="submit" value="Enviar formulario">
-            </p>
-        </form>
-
-        <h3>Listado de frutas</h3>
-        <ol>
-            <li>Manzana</li>
-            <li>Pera</li>
-            <li>Sandia</li>           
-            </ol>
-        <ul>
-            <li>Manzana
-                <ul>
-                    <li>verdes</li>
-                </ul>
-            </li>
-            <li>Pera</li>
-            <li>Sandia</li>           
-        </ul>
-
-        <h3>tablas</h3>
-        <table border="1">
-            <tr><!-- Filas -->
-                <th>Nombre</th><!--Columnas -->
-                <th>Apellidos</th>
-                <th>Pais</th>
-            </tr>
-            <tr>
-                <td>Kevin</td>
-                <td>Perez</td>
-                <td>Pais</td>
-            </tr>
-        </table>
-
-
-        
-    </body>
+</body>
 </html>
-
